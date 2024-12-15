@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/motorlatitude/mini-graph-card/compare/v1.0.0...v1.0.1) (2024-12-15)
+
+
+### Bug Fixes
+
+* readme ([05d778d](https://github.com/motorlatitude/mini-graph-card/commit/05d778d60a320e5c3f4a96cdb8be498dbaaf83df))
+
 # 1.0.0 (2024-12-15)
 
 
