@@ -1,3 +1,5 @@
+## This is a fork!
+
 # Lovelace Mini Graph Card
 A minimalistic and customizable graph card for [Home Assistant](https://github.com/home-assistant/home-assistant) Lovelace UI.
 
@@ -7,7 +9,7 @@ The card works with entities from within the **sensor** & **binary_sensor** doma
 
 ## Install
 
-### HACS (recommended) 
+### HACS (recommended)
 
 This card is available in [HACS](https://hacs.xyz/) (Home Assistant Community Store).
 <small>*HACS is a third party community store and is not included in Home Assistant out of the box.*</small>
@@ -203,7 +205,7 @@ color_thresholds:
   - value: 4
     color: "#0000ff"
 ```
-The example above will result in the following colors of the graph: if value is 
+The example above will result in the following colors of the graph: if value is
 * between `0` (including this value) and  `1.33333`, the color is `#ff0000`,
 * between `1.33333` (including this value) and `2.666667`, the color is `#ffff00`,
 * between `2.666667` (including this value) and `4`, the color is `#00ff00`,
