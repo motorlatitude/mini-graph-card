@@ -1,3 +1,36 @@
+# 1.0.0 (2024-12-15)
+
+
+### Bug Fixes
+
+* add first datapoint tooltip for line graph ([#882](https://github.com/motorlatitude/mini-graph-card/issues/882)) ([7576fe6](https://github.com/motorlatitude/mini-graph-card/commit/7576fe6460803546936c18fcadebf86a63c9ebfa))
+* allow zero tooltip ([057a395](https://github.com/motorlatitude/mini-graph-card/commit/057a395ecbf8cfeb92ffa2805f1f8204778d7948)), closes [#805](https://github.com/motorlatitude/mini-graph-card/issues/805)
+* cards would always assume icon_image was set ([#957](https://github.com/motorlatitude/mini-graph-card/issues/957)) ([f376732](https://github.com/motorlatitude/mini-graph-card/commit/f376732f0a82251e3c66aa22500b377d1c7ef9b8))
+* display a warning if entity is not available ([#545](https://github.com/motorlatitude/mini-graph-card/issues/545)) ([a334b84](https://github.com/motorlatitude/mini-graph-card/commit/a334b84f6c76a75d3af212ec18c7a423b2a2c022)), closes [#487](https://github.com/motorlatitude/mini-graph-card/issues/487)
+* drop out-of-bound coords in reducer ([#881](https://github.com/motorlatitude/mini-graph-card/issues/881)) ([527f005](https://github.com/motorlatitude/mini-graph-card/commit/527f005c902be8a9d572aabcb82993dfedd73572)), closes [#251](https://github.com/motorlatitude/mini-graph-card/issues/251)
+* Fix undefined variable introduced by [#545](https://github.com/motorlatitude/mini-graph-card/issues/545) ([9e923f5](https://github.com/motorlatitude/mini-graph-card/commit/9e923f55af19e0dcacf58ec3c5e38ae085c144ec))
+* icon will properly follow entity's device_class [[#484](https://github.com/motorlatitude/mini-graph-card/issues/484)] ([2f9e0a7](https://github.com/motorlatitude/mini-graph-card/commit/2f9e0a75c10d6df932025df1e39faffd5f7992a7))
+* retain the last out-of-bounds state ([#961](https://github.com/motorlatitude/mini-graph-card/issues/961)) ([8ebe173](https://github.com/motorlatitude/mini-graph-card/commit/8ebe173b8362e41b3287aaf04114d882aae78207)), closes [#881](https://github.com/motorlatitude/mini-graph-card/issues/881) [#960](https://github.com/motorlatitude/mini-graph-card/issues/960)
+* Support for `fire-dom-event` ([c29f55f](https://github.com/motorlatitude/mini-graph-card/commit/c29f55f78b24f8ec2a7f44aae1c40dfe0f837c81)), closes [#563](https://github.com/motorlatitude/mini-graph-card/issues/563)
+* tooltip interval start could be after end ([#1065](https://github.com/motorlatitude/mini-graph-card/issues/1065)) ([930ee39](https://github.com/motorlatitude/mini-graph-card/commit/930ee39f51744bc11f580f4198f579b5213371ca)), closes [#181](https://github.com/motorlatitude/mini-graph-card/issues/181)
+* **config:** Remove entity config error [#592](https://github.com/motorlatitude/mini-graph-card/issues/592) ([#593](https://github.com/motorlatitude/mini-graph-card/issues/593)) ([53d923a](https://github.com/motorlatitude/mini-graph-card/commit/53d923a8d4979169cb48073d4ac0f595fc80e6a7))
+* **documentation:** enquote html color ([dbdeab8](https://github.com/motorlatitude/mini-graph-card/commit/dbdeab86f987d74583fea37f57b0499bf474639f)), closes [#872](https://github.com/motorlatitude/mini-graph-card/issues/872)
+* **log:** color_thresholds render incorectly with logaritmic on ([#542](https://github.com/motorlatitude/mini-graph-card/issues/542)) ([b704885](https://github.com/motorlatitude/mini-graph-card/commit/b704885746f6ead103e5b4285cd6554bb4ba7554)), closes [#531](https://github.com/motorlatitude/mini-graph-card/issues/531)
+* **stalebot:** issues should also use exemptLabels ([4d74c1f](https://github.com/motorlatitude/mini-graph-card/commit/4d74c1f103af7c830291c2c85a505adba9a9f4f9))
+* **workflows:** remove invalid description field ([e755e24](https://github.com/motorlatitude/mini-graph-card/commit/e755e24efe37d53d8ba02852f2ba23ed8444f1da))
+* Time would sometime display 24:xx instead of 00:xx [[#536](https://github.com/motorlatitude/mini-graph-card/issues/536)] ([7c7d921](https://github.com/motorlatitude/mini-graph-card/commit/7c7d9210810e3fd8ca4f77b9708a09fadc963a93))
+
+
+### Features
+
+* Add support of attribute tree when available ([#996](https://github.com/motorlatitude/mini-graph-card/issues/996)) ([9c1c31e](https://github.com/motorlatitude/mini-graph-card/commit/9c1c31eaef3b81f45374441823a40b8f06196fc7))
+* Interpolate color threshold stops ([#596](https://github.com/motorlatitude/mini-graph-card/issues/596)) ([3826c0d](https://github.com/motorlatitude/mini-graph-card/commit/3826c0dd7e647792ac01fae47a9b057deefad337))
+* pull two years worth of changes into release channel ([f5fb98d](https://github.com/motorlatitude/mini-graph-card/commit/f5fb98d9abc6a350151efef952a52d9d717a1d76)), closes [#1059](https://github.com/motorlatitude/mini-graph-card/issues/1059)
+* **attribute:** Retrieve an attribute instead of the state ([#564](https://github.com/motorlatitude/mini-graph-card/issues/564)) ([708bfde](https://github.com/motorlatitude/mini-graph-card/commit/708bfde41dffafcef5378da4365ef394b533d6c7)), closes [#411](https://github.com/motorlatitude/mini-graph-card/issues/411) [#245](https://github.com/motorlatitude/mini-graph-card/issues/245) [#501](https://github.com/motorlatitude/mini-graph-card/issues/501)
+* **graph:** Add median aggregate function ([#521](https://github.com/motorlatitude/mini-graph-card/issues/521)) ([57219bd](https://github.com/motorlatitude/mini-graph-card/commit/57219bd928006286d38ff7628454af36db6c6349))
+* **option:** override icon with an image URL ([#789](https://github.com/motorlatitude/mini-graph-card/issues/789)) ([2860a09](https://github.com/motorlatitude/mini-graph-card/commit/2860a094e782d8af3c80c46b56aa80e079b9755b))
+* Format numbers according to selected language [[#495](https://github.com/motorlatitude/mini-graph-card/issues/495) [#509](https://github.com/motorlatitude/mini-graph-card/issues/509)] ([5785bd8](https://github.com/motorlatitude/mini-graph-card/commit/5785bd8a9c1912ef22a8e70abab7c4b5e00abe74))
+
 ## [0.12.1](https://github.com/kalkih/mini-graph-card/compare/v0.12.0...v0.12.1) (2024-03-20)
 
 
