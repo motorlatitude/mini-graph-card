@@ -137,7 +137,9 @@ export default (config) => {
   };
 
   conf.entities.forEach((entity, i) => {
-    if (typeof entity === 'string') conf.entities[i] = { entity };
+    if (entity === 'none' || entity.entity === 'none') {
+      conf.entities.splce(i, 1);
+    } else if (typeof entity === 'string') conf.entities[i] = { entity };
   });
 
   conf.state_map.forEach((state, i) => {
