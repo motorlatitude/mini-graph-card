@@ -239,7 +239,7 @@ class MiniGraphCard extends LitElement {
     }
 
     const { icon, icon_adaptive_color } = this.config.show;
-    return icon ? html`
+    return icon && this.entity[0] ? html`
       <div class="icon" loc=${this.config.align_icon}
         style=${icon_adaptive_color ? `color: ${this.color};` : ''}>
         <ha-icon .icon=${this.computeIcon(this.entity[0])}></ha-icon>
