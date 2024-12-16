@@ -39,7 +39,7 @@ If you configure Lovelace via YAML, add a reference to `mini-graph-card-bundle.j
 
   ```yaml
   resources:
-    - url: /local/mini-graph-card-bundle.js?v=1.0.1
+    - url: /local/mini-graph-card-bundle.js?v=1.0.2
       type: module
   ```
 
@@ -62,7 +62,7 @@ Else, if you prefer the graphical editor, use the menu to add the resource:
 
   ```yaml
   resources:
-    - url: /local/mini-graph-card-bundle.js?v=1.0.1
+    - url: /local/mini-graph-card-bundle.js?v=1.0.2
       type: module
   ```
 

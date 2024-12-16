@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/motorlatitude/mini-graph-card/compare/v1.0.1...v1.0.2) (2024-12-16)
+
+
+### Bug Fixes
+
+* default colour if no entity exists ([0a928d7](https://github.com/motorlatitude/mini-graph-card/commit/0a928d77147caddb4b0f6dd176fc1ae549f996b8))
+
 ## [1.0.1](https://github.com/motorlatitude/mini-graph-card/compare/v1.0.0...v1.0.1) (2024-12-15)
 
 
