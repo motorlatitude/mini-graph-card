@@ -149,11 +149,14 @@ class MiniGraphCard extends LitElement {
 
   shouldUpdate(changedProps) {
     if (UPDATE_PROPS.some(prop => changedProps.has(prop))) {
-      this.color = this.intColor(
-        this.tooltip.value !== undefined
-          ? this.tooltip.value : this.entity[0] && this.entity[0].state,
-        this.tooltip.entity || 0,
-      );
+      this.color = '#000';
+      if (this.entity && this.entity[0]) {
+        this.color = this.intColor(
+          this.tooltip.value !== undefined
+            ? this.tooltip.value : this.entity[0] && this.entity[0].state,
+          this.tooltip.entity || 0,
+        );
+      }
       return true;
     }
   }
