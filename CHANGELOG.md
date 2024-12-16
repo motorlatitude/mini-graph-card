@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/motorlatitude/mini-graph-card/compare/v1.0.2...v1.0.3) (2024-12-16)
+
+
+### Bug Fixes
+
+* disable icon on entity none ([2a0360d](https://github.com/motorlatitude/mini-graph-card/commit/2a0360df0e8c9cc4893f6aadaeeb19f4cdae02e0))
+
 ## [1.0.2](https://github.com/motorlatitude/mini-graph-card/compare/v1.0.1...v1.0.2) (2024-12-16)
 
 
